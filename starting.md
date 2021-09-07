@@ -1,23 +1,9 @@
 # Introduzione al documento master
 
-## Sezione 1
+Il documento è composto da una sezione partent e da 3 sezioni child. Utilizzeremo i link per formare il documento master.
 
-Prima sezione con esempio codice markdown. 
-Elenco:
+## [Sezione1](./sezione1.md)
 
-- uno
-- due
-- tre
+## [Sezione2](./sezione2.md)
 
-## Sezione 2
-
-Esempio codice:
-
-```
-for i=0 to 100 then
-    msgbox "codice errato"
-    i = i+1
-next i
-```
-
-## Sezione 3
+## [Sezione3](./sezione3.md)
