@@ -20,15 +20,6 @@ macchina = {
     "cannoni": [1, 1, 0, 0]
 }
 
-
-'''
-for key, value in macchina.items():
-  tot = 0
-   for i in range(len(value)):
-      tot = value[i]
-  tot_macchina[key] = tot
-'''
-
 # Calcoliamo la sommatoria per ogni oggetto trovato in tasca
 tot_macchina = {}
 for k, v in macchina.items():
@@ -38,7 +29,9 @@ for k, v in macchina.items():
 for k, v in tot_macchina.items():
     print(f'''
           chiave: {k.upper()}
-          valore: {v}''')
+          valore: {v}
+          max: {max.get(k, "vuoto")}
+          ''')
 print("-" * 40)
 
 # Verifica arresto occupanti macchina 
