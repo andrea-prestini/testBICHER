@@ -1,2 +1,2 @@
 # testBICHER
-Prove gitHub per files markdown ed altri progetti
+Prove uso gitHub per files progetti vari
